@@ -9,4 +9,7 @@ class ApplicationController < ActionController::Base
   end
 
   def default_url_options(options={})
+  def my_commit
+    puts 'Me has been here'
+  end
 end
